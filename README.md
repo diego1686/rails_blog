@@ -1,4 +1,12 @@
-rails_blog
-==========
+Próxima estación: Ruby on Rails
+===============================
 
-Blog de ejemplo desarrollado en RoR para el Workshop de SUMA Conectivo 
+Blog de ejemplo desarrollado en RoR para el Workshop de SUMA Conectivo.
+
+Enlaces útiles:
+
+- Guías oficiales => http://guides.rubyonrails.org
+- Railscasts => http://railscasts.com/
+- RubyGems => http://rubygems.org/
+
+@diegoboedo
