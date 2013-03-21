@@ -1,0 +1,105 @@
+html {
+	background-color: #ccc;
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 80%;
+	background-color: #fff;
+	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	padding: 20px;
+	border-bottom: 3px solid #aaa;
+}
+h1 {
+	margin: 0;
+}
+.post {
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+.post a {
+	background-color: blue;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 2px;
+	padding: 2px 4px;
+}
+.post a:hover {
+	background-color: #3503B2;
+}
+em {
+	color: #aaa;
+	font-size: 0.8em;
+	margin-bottom: 2em;
+}
+label {
+	font-weight: bold;
+}
+input[type="text"], input[type="password"], textarea {
+	width: 500px;
+	padding: 5px 10px;
+	font-size: 1em;
+}
+textarea {
+	margin-top: 4px;
+	height: 200px;
+}
+.field_with_errors label {
+	color: red;
+}
+.field_with_errors input, .field_with_errors textarea {
+	border-color: red;
+}
+input[type="submit"] {
+	-webkit-appearance: none;
+	background-color: #ccc;
+	border: 2px solid #aaa;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 4px 10px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #fff;
+}
+input[type="submit"]:hover {
+	background-color: #bbb;
+}
+.user {
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	margin: -20px -20px 1em -20px;
+	padding: 10px 20px;
+	text-align: right;
+}
+.user a {
+	color: red;
+}
+.left {
+	float: left;
+}
+.left a {
+	color: #fff;
+	margin-right: 20px;
+}
+.error, .flash {
+	margin: 1em auto;
+	width: 500px;
+	background-color: #ffdede;
+	border: 2px solid red;
+	text-align: center;
+	padding: 1em;
+}
+.flash {
+	background-color: #fff3a3;
+	border-color: #f3ca0a;
+}
+.error strong {
+	font-size: 1.2em;
+}
+.error ul {
+	text-align: left;
+}

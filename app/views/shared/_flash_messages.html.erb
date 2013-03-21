@@ -1,0 +1,6 @@
+<% flash.each do |key, value| %>
+	<% (key == :error)? title = "Error!" : title = "Success!" %> 
+	<div class="flash">
+		<strong><%= title %></strong>&nbsp;<%= value %>
+	</div>
+<% end %>
