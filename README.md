@@ -1,7 +1,7 @@
 Próxima estación: Ruby on Rails
 ===============================
 
-Blog de ejemplo desarrollado en RoR para el Workshop de SUMA Conectivo.
+Blog de ejemplo desarrollado en RoR para el Workshop de [SUMA Conectivo](http://sumaconectivo.com/).
 
 Enlaces útiles:
 
@@ -11,4 +11,4 @@ Enlaces útiles:
 
 
 
-@diegoboedo
+[@diegoboedo](https://twitter.com/diegoboedo)
