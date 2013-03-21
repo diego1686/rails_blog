@@ -5,7 +5,7 @@
 	<h1><%= post.title %></h1>	
 	<em>Created by <%= post.user.name %> at <%= post.created_at.strftime("%Y-%m-%d %H:%M") %></em>
 	<p>
-		<%= truncate(post.body, :length => 25, :omission => '... ').html_safe %>
+		<%= truncate(post.body, :length => 100, :omission => '... ') %>
 		<% if post.body.length > 25  %>
 			<%= link_to "Read the full article", post_path(post) %>
 		<% end %>
